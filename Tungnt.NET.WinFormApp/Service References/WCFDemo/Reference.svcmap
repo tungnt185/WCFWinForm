@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d2ddc1b4-1289-4eea-9b46-91441c483283" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:47035/WCFServiceDemo.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WCFServiceDemo.xsd" MetadataType="Schema" ID="a90ce8b0-a005-4a2b-be6f-a3c89f3408d9" SourceId="1" SourceUrl="http://localhost:47035/WCFServiceDemo.svc?xsd=xsd1" />
+    <MetadataFile FileName="WCFServiceDemo1.xsd" MetadataType="Schema" ID="2f2e3840-e955-4274-993d-c63d85f6b4bd" SourceId="1" SourceUrl="http://localhost:47035/WCFServiceDemo.svc?xsd=xsd0" />
+    <MetadataFile FileName="WCFServiceDemo2.xsd" MetadataType="Schema" ID="9fbb6d56-33ab-4d00-9f3b-a3bca2bdcb60" SourceId="1" SourceUrl="http://localhost:47035/WCFServiceDemo.svc?xsd=xsd2" />
+    <MetadataFile FileName="WCFServiceDemo.disco" MetadataType="Disco" ID="2684f144-d722-414d-89a6-ea2f3e1f6d34" SourceId="1" SourceUrl="http://localhost:47035/WCFServiceDemo.svc?disco" />
+    <MetadataFile FileName="WCFServiceDemo.wsdl" MetadataType="Wsdl" ID="14083ce1-6fa8-429d-88bb-0b92c0e73f72" SourceId="1" SourceUrl="http://localhost:47035/WCFServiceDemo.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
